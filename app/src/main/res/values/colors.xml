@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Light theme palette. Fintech look: deep navy ink on a soft, high-contrast surface. -->
+<resources>
+    <color name="brand_primary">#0A2540</color>       <!-- deep navy -->
+    <color name="brand_accent">#00B37E</color>        <!-- mint / credit green -->
+    <color name="on_primary">#FFFFFF</color>
+
+    <color name="surface">#FFFFFF</color>
+    <color name="surface_raised">#F4F7FB</color>
+    <color name="on_surface">#0A2540</color>
+    <color name="on_surface_muted">#5B6B7C</color>
+    <color name="divider">#E6EAF0</color>
+</resources>

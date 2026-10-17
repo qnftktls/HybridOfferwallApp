@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- App theme. DayNight => dark/light switch follows the system setting automatically.
+         Set android:forceDarkAllowed="false" so our explicit night palette is used, not auto-darkening. -->
+    <style name="Theme.Offerwall" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/brand_primary</item>
+        <item name="colorOnPrimary">@color/on_primary</item>
+        <item name="colorSecondary">@color/brand_accent</item>
+        <item name="android:colorBackground">@color/surface</item>
+        <item name="colorSurface">@color/surface</item>
+        <item name="colorOnSurface">@color/on_surface</item>
+        <item name="android:windowBackground">@color/surface</item>
+        <item name="android:statusBarColor">@color/surface</item>
+        <item name="android:forceDarkAllowed" tools:targetApi="q">false</item>
+    </style>
+
+    <!-- Header app title -->
+    <style name="TextAppearance.Offerwall.Title" parent="TextAppearance.Material3.TitleLarge">
+        <item name="android:textStyle">bold</item>
+        <item name="android:letterSpacing">0.01</item>
+    </style>
+
+    <!-- Points balance (tabular, slightly tighter) -->
+    <style name="TextAppearance.Offerwall.Balance" parent="TextAppearance.Material3.TitleMedium">
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFeatureSettings">tnum</item>
+    </style>
+
+    <!-- Body copy -->
+    <style name="TextAppearance.Offerwall.Body" parent="TextAppearance.Material3.BodyLarge" />
+
+    <!-- Primary button, minimum 48dp touch target -->
+    <style name="Widget.Offerwall.Button" parent="Widget.Material3.Button">
+        <item name="android:minHeight">48dp</item>
+        <item name="android:minWidth">96dp</item>
+        <item name="cornerRadius">14dp</item>
+    </style>
+
+</resources>

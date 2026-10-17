@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Rewards Hub</string>
+
+    <!-- Balance pill in the header -->
+    <string name="balance_format">%1$s pts</string>
+
+    <!-- Offerwall WebView -->
+    <string name="offerwall_content_description">Offerwall with available offers to earn rewards</string>
+    <string name="offerwall_error_default">We couldn\'t load your offers. Check your connection and try again.</string>
+    <string name="action_retry">Retry</string>
+
+    <!-- Reward feedback -->
+    <string name="reward_credited">You earned %1$s points!</string>
+</resources>

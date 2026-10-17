@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Cleartext (http://) is disabled by default for security. The offerwall + ads run over HTTPS. -->
+<network-security-config>
+    <base-config cleartextTrafficPermitted="false">
+        <trust-anchors>
+            <certificates src="system" />
+        </trust-anchors>
+    </base-config>
+
+    <!--
+      DEV ONLY: if a provider's sandbox offerwall is http-only, allow one host explicitly:
+      <domain-config cleartextTrafficPermitted="true">
+          <domain includeSubdomains="true">sandbox.your-provider.com</domain>
+      </domain-config>
+    -->
+</network-security-config>
